@@ -44,13 +44,13 @@ function writeToFile(fileName, response){
    
     let userShape;
      if (shape === 'triangle' || shape === 'Triangle') {
-        userShape = new Triangle(logoColor, text, textColor);
+        userShape = new Triangle(undefined, logoColor, text, textColor);
      }
      else if (shape === 'square' || shape === 'Square') {
-        userShape = new Square(logoColor, text, textColor);
+        userShape = new Square(undefined, logoColor, text, textColor);
      }
      else if (shape === 'circle' || shape === 'Circle') {
-        userShape = new Circle(logoColor, text, textColor);
+        userShape = new Circle(undefined, logoColor, text, textColor);
      }
      else {
         console.log("Your shape is invalide");
@@ -60,7 +60,8 @@ function writeToFile(fileName, response){
     const svg = userShape.render();
     //  svgString = userShape(logoColor, shape, text, textColor);
      console.log(svg);
-
+     
+ 
 
      fs.writeFile("logo.svg", svg, (err) => {
         if (err) throw err;
