@@ -14,7 +14,8 @@
 
 # Description
 
-The purpose of this application is to create a README generator that prompts the users for various questions that represent section of the README file. Once The user has answered various questions including the title, choice of badge, installation, contributions, etc. then the desired markdown will be generated with the appropriate format.
+The purpose of this application is to create a SVG logo generator that prompts the users for various questions describing the parameters for the appearance of their logo. Once The user has answered various questions including the text, text color, logo color, and shape then the desired logo will be created with these parameters.
+
 
 The application had to meet the following acceptance criteria:
 
