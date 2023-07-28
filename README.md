@@ -154,7 +154,7 @@ Then open the index.js in the integrated terminal and enter your responses
 
 ![terminal](./assets/images/Logo%3DParameters.png)
 
-Finally, the application will devlop a README file with your inputs
+Finally, the application will devlop an SVG logo with your inputs
 
 ![readme](./assets/images/Generated-logo.png)
 
