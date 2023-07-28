@@ -43,13 +43,13 @@ function writeToFile(fileName, response){
     const logoColor = answers.logoColor;
    
     let userShape;
-     if (shape === 'triangle' || shape === 'Triangle') {
+     if (shape === 'triangle') {
         userShape = new Triangle(undefined, logoColor, text, textColor);
      }
-     else if (shape === 'square' || shape === 'Square') {
+     else if (shape === 'square') {
         userShape = new Square(undefined, logoColor, text, textColor);
      }
-     else if (shape === 'circle' || shape === 'Circle') {
+     else if (shape === 'circle') {
         userShape = new Circle(undefined, logoColor, text, textColor);
      }
      else {
