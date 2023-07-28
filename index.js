@@ -77,7 +77,7 @@ function init() {
         questions
     )
     .then((response) => {
-        console.log(response);
+        // console.log(response);
         writeToFile("file", response)
     })
     .catch((err) => {
