@@ -58,15 +58,15 @@ function writeToFile(fileName, response){
      }
 
     const svg = userShape.render();
-    //  svgString = userShape(logoColor, shape, text, textColor);
+    
      console.log(svg);
      
  
 
-     fs.writeFile("logo.svg", svg, (err) => {
+    fs.writeFile("logo.svg", svg, (err) => {
         if (err) throw err;
     });
-
+    console.log('Generated logo.svg');
 
 }
 
